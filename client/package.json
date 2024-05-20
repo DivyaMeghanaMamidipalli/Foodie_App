@@ -1,0 +1,31 @@
+{
+  "name": "foodie_app",
+  "version": "1.0.0",
+  "description": "A dynamic food ordering application utilizing fundamental concepts of React JS",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivyaMeghana7686/Foodie_App.git"
+  },
+  "keywords": [
+    "React",
+    "UI"
+  ],
+  "author": "Meghana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DivyaMeghana7686/Foodie_App/issues"
+  },
+  "homepage": "https://github.com/DivyaMeghana7686/Foodie_App#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.1"
+  }
+}

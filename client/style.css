@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    border:border-box;
+}
+
+.border{
+    border:1px solid black;
+}
+
+.border:hover{
+    border:2px solid #4e4b4b;
+}
+
+.header{
+    height:100px;
+    background-color:aquamarine;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+
+}
+
+.logo{
+    width:100px;
+    margin-left:10px;
+}
+
+.nav-items{
+    display:flex;
+    font-size:20px;
+}
+
+.nav-items p{
+    padding:10px;
+    margin:10px;
+
+}
+
+.search_bar{
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    height:30px;
+    text-align: center;
+}
+
+.search-box{
+    height:30px;
+    width:70%;
+    font-size:15px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-btn{
+    height:31px;
+    width:50px;
+    text-align:center;
+    font-size:15px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+}
+
+.filter{
+    display:flex;
+    justify-content: center;
+}
+
+.top-rated-btn{
+    display:flex;
+    width:130px;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.res-card{
+    height:300px;
+    width:23%;
+    background-color:#f0f0f0;
+    padding:20px 0px 15px;
+    margin-top:15px;
+    border-radius:10px;
+}
+.res-card:hover{
+    border:1px solid rgb(168, 160, 160);
+    cursor:pointer;
+}
+
+.res-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color: rgb(254, 252, 252);
+
+    
+}
+
+.card_image{
+    height:160px;
+    width:90%;
+    border-radius:10px;
+    margin-left:10px;
+    margin-right:10px; 
+
+}
+.data{
+    margin-top:10px;
+    margin-left:15px;
+
+}
+
+
+.content p{
+    width:100%;
+    overflow:hidden;
+    overflow-wrap:break-word;
+    margin:5px 0px 5px 0px;
+}
+
+.imp_data{
+    display:flex;
+}
+.imp_data h4{
+    margin-right:10px;
+}
+
+.shimmer-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color: rgb(254, 252, 252);
+}
+
+.shimmer-card{
+    height:300px;
+    width:23%;
+    background-color:#f0f0f0;
+    padding:20px 0px 15px;
+    margin-top:15px;
+    border-radius:10px;
+}
+
+.about-page h2{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    margin-top:10px;
+
+}
+
+.about-page p{
+    margin-top:10px;
+    margin-left:10px;
+    font-size:large;
+}
